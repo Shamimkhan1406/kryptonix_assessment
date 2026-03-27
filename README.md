@@ -16,3 +16,6 @@ For help getting started with Flutter development, view the
 samples, guidance on mobile development, and a full API reference.
 
 https://github.com/Shamimkhan1406/kryptonix_assessment
+
+# vercel deployed link--
+https://kryptonix-cnyppq3qz-shamim-khans-projects-79a8e401.vercel.app/
