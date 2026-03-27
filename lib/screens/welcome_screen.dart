@@ -4,12 +4,14 @@ class WelcomeScreen extends StatelessWidget {
   final String name;
   final String email;
   final String phone;
+  final String countryCode;
 
   const WelcomeScreen({
     super.key,
     required this.name,
     required this.email,
     required this.phone,
+    required this.countryCode,
   });
 
   @override
@@ -27,6 +29,7 @@ class WelcomeScreen extends StatelessWidget {
             const SizedBox(height: 20),
 
             Text("Email: $email"),
+            Text("Country Code: $countryCode"),
             Text("Phone: $phone"),
           ],
         ),
